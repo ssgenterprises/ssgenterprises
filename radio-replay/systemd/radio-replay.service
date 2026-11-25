@@ -1,0 +1,14 @@
+[Unit]
+Description=Radio Replay - continuous receiver recorder with instant replay
+After=sound.target
+
+[Service]
+Type=simple
+User=@USER@
+WorkingDirectory=@DIR@
+ExecStart=@DIR@/.venv/bin/python -m radio_replay.main --config @DIR@/config.ini
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
