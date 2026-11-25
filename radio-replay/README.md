@@ -19,6 +19,8 @@ firmware job. Any Pi (Zero 2 W, 3, 4 or 5) with a $10 USB sound card does it eas
 
 ## Hardware
 
+Full parts list with links and prices: **[PARTS.md](PARTS.md)**.
+
 | Item | Notes |
 |---|---|
 | Raspberry Pi (Zero 2 W / 3 / 4 / 5) | Raspberry Pi OS Bookworm or later |
